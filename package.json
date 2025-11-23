@@ -6,7 +6,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "react-scripts build && mv build docs"
   },
   "repository": {
     "type": "git",
